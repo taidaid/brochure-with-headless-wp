@@ -6,11 +6,10 @@ import Header from "./components/Header/Header.component";
 
 const App = () => {
   return (
-    <div className="app">
+    <>
       <Header />
-
       <Home />
-    </div>
+    </>
   );
 };
 

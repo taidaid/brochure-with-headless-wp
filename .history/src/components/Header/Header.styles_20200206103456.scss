@@ -1,0 +1,41 @@
+@import "src/_variables.scss";
+
+.logo {
+  // height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  max-height: 20vh;
+  background-color: $dark-background;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: $header-text-size;
+  color: $light-text;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-main {
+  font-size: $main-content-text-size;
+  color: $dark-text;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

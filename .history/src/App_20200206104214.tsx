@@ -8,8 +8,9 @@ const App = () => {
   return (
     <div className="app">
       <Header />
-
-      <Home />
+      <main role="main" className="main-content">
+        <Home />
+      </main>
     </div>
   );
 };

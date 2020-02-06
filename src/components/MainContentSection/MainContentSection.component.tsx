@@ -1,0 +1,17 @@
+import React from "react";
+import "./MainContentSection.styles.scss";
+
+const MainContentSection = () => {
+  return (
+    <section className="main-content__section">
+      <h2 className="main-content__section__header">
+        This is the main content section header.
+      </h2>
+      <p className="main-content__section__paragraph">
+        This is the main content section paragraph.
+      </p>
+    </section>
+  );
+};
+
+export default MainContentSection;

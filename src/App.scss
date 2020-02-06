@@ -1,0 +1,8 @@
+@import "./scss/variables";
+
+.app {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  min-height: 100vh;
+}
